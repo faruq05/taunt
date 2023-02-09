@@ -71,6 +71,10 @@ body {
     border-right: 10px solid #7b54ce;
 }
 
+.btn:hover {
+    color: #fff;
+}
+
 /* global ends */
 
 
