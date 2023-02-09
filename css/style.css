@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+/* global */
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 40.6px;
+    font-family: 'Unbounded', cursive;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+
+}
+
+a {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+:root {
+    --cs-primary: #0D071A;
+
+}
+
+.c-60 {
+    padding: 60px 15px;
+}
+
+body {
+    background-color: var(--cs-primary);
+}
+
+.container-fluid {
+    width: 1440px;
+}
+
+/* global ends */
+
+
+/* header starts */
+.header {
+    background: rgb(82, 44, 157);
+    background: linear-gradient(90deg, rgba(82, 44, 157, 1) 0%, rgba(124, 84, 206, 1) 100%);
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+
+}
+
+.header_logo {}
+
+.header_logo img {}
+
+.btn-taunt {
+    background-color: var(--cs-primary);
+    color: #fff;
+    padding: 0;
+    padding: 12px 24px;
+    border-radius: 50px;
+}
+
+/* header ends */
+
+/* hero starts */
+.hero {}
+
+.hero .container-fluid {
+    width: auto;
+}
+
+.hero h1 {
+    width: 55%;
+    margin: auto;
+}
+
+.carousel {
+    padding-top: 60px;
+}
+
+.carousel img {
+    padding: 7px;
+}
+
+/* hero_ends */
+
+/* eco bank starts */
+.ecobank_image {
+    text-align: center;
+}
+
+/* eco bank ends */
+
+/* cta starts */
+.cta_content {
+    background: rgba(233, 207, 254, 0.04);
+    border: 2px solid #C6A8EE;
+    backdrop-filter: blur(25.5px);
+    padding: 100px;
+    border-radius: 200px;
+    
+}
+
+.cta_content h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cta_button{
+    text-align: center;
+}
+
+.btn-cta {
+    background-color: #fff;
+    color: #000;
+    padding: 0;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+/* cta ends */
+
+/* footer tsarts */
+.footer{
+    background: rgb(82, 44, 157);
+    background: linear-gradient(90deg, rgba(82, 44, 157, 1) 0%, rgba(124, 84, 206, 1) 100%);
+}
+
+.footer_logo{
+    padding: 40px 0px;
+    text-align: center;
+}
