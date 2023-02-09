@@ -1,0 +1,72 @@
+@media(max-width:425px) {
+    .header_content {
+        padding: 20px 0px;
+    }
+    
+    .hero h1 {
+        font-size: 24px;
+        line-height: 40px;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0em;
+
+    }
+
+    .hero {
+        padding: 30px 15px;
+    }
+
+    .ecobank_image {
+        padding-bottom: 20px;
+    }
+
+    .ecobank,
+    .ambassador,
+    .audiance,
+    .earning,
+    .cta {
+        padding: 30px 15px;
+    }
+
+    .cta_content {
+        padding: 10px;
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .cta_content h2 {
+        font-family: Unbounded;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .btn-cta, .btn-taunt{
+        font-family: Unbounded;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 13px;
+    }
+
+    .footer_logo {
+        padding: 20px 0px;
+    }
+
+}
