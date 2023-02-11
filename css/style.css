@@ -69,6 +69,7 @@ body {
     background-color: var(--cs-primary);
     border-left: 10px solid #522c9d;
     border-right: 10px solid #7b54ce;
+    overflow-x: hidden;
 }
 
 .btn:hover {
@@ -108,7 +109,11 @@ body {
 
 /* hero starts */
 .hero {
-  
+
+    border-left: 5px solid #522c9d;
+    border-right: 5px solid #7b54ce;
+
+    border-radius: 25px 25px 0px 0px;
 }
 
 
@@ -120,7 +125,7 @@ body {
 
 .carousel {}
 
-.owl-dots{
+.owl-dots {
     display: none;
 }
 
@@ -128,18 +133,69 @@ body {
     padding: 7px;
 }
 
+.block::before {
+    position: absolute;
+    content: '';
+    width: 59px;
+    height: 80px;
+    background-color: #522c9d;
+    clip-path: polygon(25% 25%, 75% 25%, 41.13% 41.13%, 25% 75%);
+    top: 66px;
+    left: -8px;
+}
+
+.block::after {
+    position: absolute;
+    content: '';
+    width: 26px;
+    height: 31px;
+    background-color: #7b54ce;
+    clip-path: polygon(0% 0%, 100% 0%, 40.75% 40.75%, 0% 100%);
+    top: 86px;
+    right: 8px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transform: rotate(99deg);
+}
+
 /* hero_ends */
 
 /* eco bank starts */
+.ecobank{
+    border-left: 5px solid #522c9d;
+    border-right: 5px solid #7b54ce;
+
+}
 .ecobank_image {
     text-align: center;
 }
 
 /* eco bank ends */
 
+.ambassador{
+    border-left: 5px solid #522c9d;
+    border-right: 5px solid #7b54ce;
+
+}
+
+.audiance{   border-left: 5px solid #522c9d;
+    border-right: 5px solid #7b54ce;
+}
+
+.earning{
+    border-left: 5px solid #522c9d;
+    border-right: 5px solid #7b54ce;
+
+}
+
 /* cta starts */
+.cta{
+    border-left: 5px solid #522c9d;
+    border-right: 5px solid #7b54ce;
+}
+
 .cta_content {
-    background: rgba(233, 207, 254, 0.04);
+   background: rgba(233, 207, 254, 0.04);
     border: 2px solid #C6A8EE;
     backdrop-filter: blur(25.5px);
     padding: 100px;

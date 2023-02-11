@@ -26,6 +26,10 @@
 }
 
 @media(max-width:767px) {
+
+    body{
+        overflow-x: hidden;
+    }
     .header_content {
         padding: 20px 0px;
     }
