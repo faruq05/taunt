@@ -222,6 +222,9 @@ body {
     font-weight: 700;
 }
 
+.btn-cta:hover{
+    color: #000;
+}
 /* cta ends */
 
 /* footer tsarts */
