@@ -83,6 +83,7 @@ body {
 .header {
     background: rgb(82, 44, 157);
     background: linear-gradient(90deg, rgba(82, 44, 157, 1) 0%, rgba(124, 84, 206, 1) 100%);
+    z-index: 8;
 }
 
 .header_content {
@@ -101,7 +102,7 @@ body {
     background-color: var(--cs-primary);
     color: #fff;
     padding: 0;
-    padding: 12px 24px;
+    padding: 12px 50px;
     border-radius: 50px;
 }
 
@@ -111,9 +112,12 @@ body {
 .hero {
 
     border-left: 5px solid #522c9d;
+
     border-right: 5px solid #7b54ce;
 
     border-radius: 25px 25px 0px 0px;
+
+    margin-top: 90px;
 }
 
 
@@ -161,41 +165,43 @@ body {
 /* hero_ends */
 
 /* eco bank starts */
-.ecobank{
+.ecobank {
     border-left: 5px solid #522c9d;
     border-right: 5px solid #7b54ce;
 
 }
+
 .ecobank_image {
     text-align: center;
 }
 
 /* eco bank ends */
 
-.ambassador{
+.ambassador {
     border-left: 5px solid #522c9d;
     border-right: 5px solid #7b54ce;
 
 }
 
-.audiance{   border-left: 5px solid #522c9d;
+.audiance {
+    border-left: 5px solid #522c9d;
     border-right: 5px solid #7b54ce;
 }
 
-.earning{
+.earning {
     border-left: 5px solid #522c9d;
     border-right: 5px solid #7b54ce;
 
 }
 
 /* cta starts */
-.cta{
+.cta {
     border-left: 5px solid #522c9d;
     border-right: 5px solid #7b54ce;
 }
 
 .cta_content {
-   background: rgba(233, 207, 254, 0.04);
+    background: rgba(233, 207, 254, 0.04);
     border: 2px solid #C6A8EE;
     backdrop-filter: blur(25.5px);
     padding: 100px;
@@ -222,9 +228,10 @@ body {
     font-weight: 700;
 }
 
-.btn-cta:hover{
+.btn-cta:hover {
     color: #000;
 }
+
 /* cta ends */
 
 /* footer tsarts */
@@ -236,4 +243,124 @@ body {
 .footer_logo {
     padding: 40px 0px;
     text-align: center;
+}
+
+/* pop up form */
+
+
+.module {
+    background-color: #fff;
+    border-radius: 42px;
+    padding: 48px;
+}
+
+.form_head {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form_head h2 {
+    color: #000;
+    font-size: 28px;
+    padding: 0;
+}
+
+.form_head p {
+    color: #161616;
+    text-align: center;
+    font-size: 14px;
+}
+
+.form-popup form {}
+
+.form-popup form input {
+    background-color: #F3F2F5;
+    border: none;
+    margin-bottom: 29px;
+    padding: 24px;
+    border-radius: 50px;
+}
+
+.form-popup form input::placeholder {
+    text-align: center;
+    color: #B1AFB5;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.form-popup form .form-control:focus {
+    color: #212529;
+    background-color: #f3f2f54d;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgb(243 242 245);
+}
+
+.form_button {
+    text-align: center;
+    padding-top: 24px;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.btn-submit {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 16px 50px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #000;
+}
+
+.btn-submit:hover {
+    color: #000;
+}
+
+.cancel {
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 16px 50px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #fff;
+}
+
+.cancel:hover {
+    color: #fff;
+}
+
+
+.form-background {
+    background-color: rgb(0 0 0 / 75%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 8;
+    display: none;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 8px;
+    z-index: 9;
+    width: 36%;
+    border-radius: 50px;
+    background: rgb(82, 44, 157);
+    background: linear-gradient(90deg, rgba(82, 44, 157, 1) 0%, rgba(124, 84, 206, 1) 100%);
+}
+
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
 }

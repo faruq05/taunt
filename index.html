@@ -24,7 +24,7 @@
 
 <body>
     <!-- header starts -->
-    <div class="header" id="top">
+    <div class="header fixed-top" id="top">
         <div class="container-fluid">
             <div class="row">
                 <div class="header_content">
@@ -32,7 +32,7 @@
                         <img src="images/logo.png" class="img-fluid" alt="taunt_logo">
                     </div>
                     <div class="taunt_reg wow fadeInRight" data-wow-duration="2s" data-wow-delay="0">
-                        <a href="#" class="btn btn-taunt">Rejoignez-nous</a>
+                        <a href="#" class="btn btn-taunt open-button" onclick="openForm()">Join us</a>
                     </div>
                 </div>
             </div>
@@ -42,11 +42,13 @@
 
     <!-- hero starts -->
     <div class="hero c-60" id="hero">
+        <div class="block"></div>
         <div class="container-fluid">
             <div class="row">
-                <div class="block"></div>
+
                 <div class="col-md-12">
-                    <h1 class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0s">Le seul hub au monde de partenariats de marques pour les créateurs de contenus</h1>
+                    <h1 class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="0s">The Ultimate Hub for Content
+                        Creators and Brand Partnerships</h1>
                 </div>
 
                 <div class="carousel owl-carousel wow fadeIn" data-wow-duration="3s" data-wow-delay="0s">
@@ -98,9 +100,9 @@
             <div class="row align-items-center">
                 <div class="col-md-6 order-2 order-md-1 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0">
                     <div class="ecobank_content">
-                        <h2>Dites adieu à vos piges de community manager ou d'ambassadeur.</h2>
-                        <p>Influenceurs, make-up artists, coaches, acteurs, musiciens, sportifs, mannequins. Accélérez
-                            votre réussite et faites du numérique votre source principale de revenu mensuel.</p>
+                        <h2>Say goodbye to all of your part-time freelance jobs.</h2>
+                        <p>Influencers, makeup artists, coaches, actors and musicians: make your digital fame your main
+                            source of income.</p>
                     </div>
                 </div>
                 <div class="col-md-6 order-1 order-md-2 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0">
@@ -124,8 +126,9 @@
                 </div>
                 <div class="col-md-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0">
                     <div class="ambassador_content">
-                        <h2>Faites affaire comme une grande marque média</h2>
-                        <p>Influenceurs, make-up artists, coaches, acteurs, musiciens, sportifs, mannequins. Accélérez votre réussite et faites du numérique votre source principale de revenu Personnalisez votre page de bio de réseaux sociaux Taunt.link pour créer une des chaînes afro-médias officielles de la marque qui vous a parrainé..</p>
+                        <h2>Do business with the internet’s biggest Brands </h2>
+                        <p>Customize your Taunt.link bio page to gain the support of brands whose customers invited you
+                            to do so.</p>
                     </div>
                 </div>
             </div>
@@ -133,14 +136,15 @@
     </div>
     <!-- ambassador ends -->
 
-     <!-- audiance starts -->
-     <div class="audiance c-60">
+    <!-- audiance starts -->
+    <div class="audiance c-60">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 order-2 order-md-1 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0">
                     <div class="audiance_content">
-                        <h2>Activez des nouvelles audiences</h2>
-                        <p>Rassemblez tout ce que vous créez, organisez ou vendez en ligne avec vos marques partenaires. Tout à partir d'un seul lien dans la bio de votre page sociale.</p>
+                        <h2>Engage new audiences</h2>
+                        <p>Bring together everything you create, organize or sell online with your partner brands. All
+                            from a single link in your social page bio.</p>
                     </div>
                 </div>
                 <div class="col-md-6 order-1 order-md-2 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0">
@@ -153,7 +157,7 @@
     </div>
     <!-- audiance ends -->
 
-    
+
     <!-- earning starts -->
     <div class="earning c-60">
         <div class="container">
@@ -165,8 +169,9 @@
                 </div>
                 <div class="col-md-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0">
                     <div class="earning_content">
-                        <h2>Vérifiez vos gains mensuels par WhatsApp des nouvelles audiences</h2>
-                        <p>Rassemblez tout ce que vous créez, organisez ou vendez en ligne Gagnez plus, avec un revenu mensuel, des recettes sur les créateurs de contenu que vous parrainez et les donations d' abonnés de vos pages de médias sociaux existantes. vos marques partenaires. Tout à partir d'un seul lien dans la bio de votre page sociale.</p>
+                        <h2>Check your monthly earnings by WhatsApp</h2>
+                        <p>Earn money every month by partnering with brands as an official provider of content for that
+                            brand and referring new creators to Taunt, earning commissions on their earnings. </p>
                     </div>
                 </div>
             </div>
@@ -178,13 +183,40 @@
     <div class="cta c-60" id="cta">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0">
+                <div class="col-md-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0">
                     <div class="cta_content">
-                        <h2>Rejoignez le réseau de créateurs de contenus de la marque de votre choix.</h2>
+                        <h2>Join the network of content creators for your favorite brand.</h2>
                         <div class="cta_button">
-                            <a href="#" class="btn btn-cta">Rejoignez-nous aujourd'hui</a>
+                            <a href="#myForm" class="btn btn-cta open-button" onclick="openForm()">Join us today</a>
                         </div>
                     </div>
+
+                    <div class="form-popup" id="myForm">
+                        <div class="module">
+                            <div class="form_head">
+                                <h2>Join Us</h2>
+                                <p>Provide the following details</p>
+                            </div>
+                            <form action="" class="form-container">
+                                <input type="text" id="brand" class="form-control" placeholder="Name the brand"
+                                    required>
+                                <input type="text" id="website" class="form-control"
+                                    placeholder="Their website or social media profile" required>
+                                <input type="text" id="page" class="form-control" placeholder="Your main social page"
+                                    required>
+                                <input type="email" id="email" class="form-control" placeholder="Your main social page"
+                                    required>
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                    placeholder="Contact phone number" class="form-control">
+                                <div class="form_button">
+                                    <a href="#" class="btn btn-submit">Submit</a>
+                                    <a href="#myForm" class="btn cancel" onclick="closeForm()">Cancel</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="form-background" onclick="closeForm()"></div>
+
                 </div>
             </div>
         </div>
@@ -235,16 +267,39 @@
                         768: {
                             items: 3,
                         },
-                        991:{
-                            items:5,
+                        991: {
+                            items: 5,
                         },
                     }
                 }
             );
         });
 
-         // wow js
-         new WOW().init();
+        // wow js
+        new WOW().init();
+
+
+        // form pop up
+        // function openForm() {
+        //     document.getElementById("myForm").style.display = "block";
+        //     document.querySelector(".blur").style.display = "block";
+        // }
+
+        // function closeForm() {
+        //     document.getElementById("myForm").style.display = "none";
+        //     document.querySelector(".blur").style.display = "none";
+        // }
+
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+            document.querySelector(".form-background").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+            document.querySelector(".form-background").style.display = "none";
+        }
+
     </script>
 </body>
 
