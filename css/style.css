@@ -74,6 +74,9 @@ body {
     color: #fff;
 }
 
+.container{
+    max-width: 1130px;
+}
 /* global ends */
 
 
@@ -150,7 +153,7 @@ body {
 }
 
 .ecobank_image {
-    text-align: center;
+    text-align: right;
 }
 
 /* eco bank ends */
@@ -163,6 +166,11 @@ body {
     background-color: var(--cs-primary);
 }
 
+.ambassador_image{
+    text-align: left;
+    width: 90%;
+}
+
 .audiance {
     border-left: 12px solid #522c9d;
 
@@ -171,12 +179,22 @@ body {
     background-color: var(--cs-primary);
 }
 
+.audiance_image{
+    text-align: right!important;
+    width: 90%;
+    margin-left: auto;
+}
+
 .earning {
     border-left: 12px solid #522c9d;
 
     border-right: 12px solid #7b54ce;
 
     background-color: var(--cs-primary);
+}
+
+.earning_image{
+    text-align: left;
 }
 
 /* cta starts */

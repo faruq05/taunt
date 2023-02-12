@@ -1,4 +1,5 @@
-@media(max-width:1880px){
+@media(max-width:1880px) {
+
     /* pop up form */
     .form-popup {
         width: 55%;
@@ -17,7 +18,7 @@
         padding: 16px 40px;
     }
 
-    .cancel{
+    .cancel {
 
         padding: 16px 40px;
     }
@@ -25,224 +26,256 @@
     .form-popup form input {
         margin-bottom: 29px;
         padding: 24px;
-    } 
+    }
 }
 
 @media(max-width:1199px) {
-.hero h1 {
-    width: 100%;
-}
- /* pop up form */
- .form-popup {
-    width: 60%;
-}
+    .hero h1 {
+        width: 100%;
+    }
 
-.module {
-    padding: 48px;
-}
+    /* pop up form */
+    .form-popup {
+        width: 60%;
+    }
 
-.form_button {
-    width: 280px;
-}
+    .module {
+        padding: 48px;
+    }
 
-.btn-submit {
+    .form_button {
+        width: 280px;
+    }
 
-    padding: 16px 40px;
-}
+    .btn-submit {
 
-.cancel{
+        padding: 16px 40px;
+    }
 
-    padding: 16px 40px;
-}
+    .cancel {
 
-.form-popup form input {
-    margin-bottom: 29px;
-    padding: 24px;
-}
+        padding: 16px 40px;
+    }
+
+    .form-popup form input {
+        margin-bottom: 29px;
+        padding: 24px;
+    }
 }
 
 @media(max-width:991px) {
-.hero h1 {
-    font-size: 30px;
-    width: 100%;
-}
+    .hero h1 {
+        font-size: 30px;
+        width: 100%;
+    }
 
-.cta_content {
-    padding: 30px 20px;
-    border-radius: 35px;
-    width: 100%;
-}
+    .cta_content {
+        padding: 30px 20px;
+        border-radius: 35px;
+        width: 100%;
+    }
 
-.ecobank,
-.ambassador,
-.audiance,
-.earning,
-.cta {
-    padding: 40px 3px;
-}
+    .ecobank,
+    .ambassador,
+    .audiance,
+    .earning,
+    .cta {
+        padding: 40px 15px;
+    }
 
-  /* pop up form */
-  .form-popup {
-    width: 60%;
-}
+    /* pop up form */
+    .form-popup {
+        width: 60%;
+    }
 
-.module {
-    padding: 48px;
-}
+    .module {
+        padding: 48px;
+    }
 
-.form_button {
-    width: 280px;
-}
+    .form_button {
+        width: 280px;
+    }
 
-.btn-submit {
+    .btn-submit {
 
-    padding: 16px 40px;
-}
+        padding: 16px 40px;
+    }
 
-.cancel{
+    .cancel {
 
-    padding: 16px 40px;
-}
+        padding: 16px 40px;
+    }
 
-.form-popup form input {
-    margin-bottom: 29px;
-    padding: 24px;
-}
+    .form-popup form input {
+        margin-bottom: 29px;
+        padding: 24px;
+    }
 }
 
 @media(max-width:767px) {
 
-body {
-    overflow-x: hidden;
+    body {
+        overflow-x: hidden;
+    }
+
+    .header_content {
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+        line-height: 40px;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0em;
+
+    }
+
+    .hero {
+        padding: 30px 15px;
+    }
+
+    .ecobank_image {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .ecobank,
+    .ambassador,
+    .audiance,
+    .earning,
+    .cta {
+        padding: 30px 15px;
+    }
+
+    .cta_content {
+        padding: 30px 10px;
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .cta_content h2 {
+        font-family: Unbounded;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .btn-cta,
+    .btn-taunt {
+        font-family: Unbounded;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 13px;
+    }
+
+    .footer_logo {
+        padding: 20px 0px;
+    }
+
+    /* pop up form */
+    .form-popup {
+        width: 80%;
+    }
+
+    .module {
+        padding: 50px 20px;
+    }
+
+    .form_button {
+        width: 280px;
+    }
+
+    .btn-submit {
+
+        padding: 16px 40px;
+    }
+
+    .cancel {
+
+        padding: 16px 40px;
+    }
+
+    .form-popup form input {
+        margin-bottom: 29px;
+        padding: 24px;
+    }
+
+    .ambassador_image {
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+
+    .audiance_image {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .earning_image {
+        text-align: center;
+    }
 }
 
-.header_content {
-    padding: 20px;
-}
+@media(max-width:425px) {
 
-.hero h1 {
-    font-size: 24px;
-    line-height: 40px;
-    padding-bottom: 30px;
-    width: 100%;
-}
+    /* pop up form */
+    .form-popup {
+        width: 100%;
+    }
 
-h2 {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0em;
-}
+    .module {
+        padding: 30px 15px;
+    }
 
-p {
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0em;
+    .form_button {
+        width: 280px;
+    }
 
-}
+    .btn-submit {
 
-.hero {
-    padding: 30px 15px;
-}
+        padding: 16px 40px;
+    }
 
-.ecobank_image {
-    padding-bottom: 20px;
-}
+    .cancel {
 
-.ecobank,
-.ambassador,
-.audiance,
-.earning,
-.cta {
-    padding: 30px 3px;
-}
+        padding: 16px 40px;
+    }
 
-.cta_content {
-    padding: 30px 10px;
-    width: 100%;
-    border-radius: 30px;
-}
+    .form-popup form input {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
 
-.cta_content h2 {
-    font-family: Unbounded;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: center;
-}
+    .ambassador_image {
+        text-align: center;
+        width: 100%;
+    }
 
-.btn-cta,
-.btn-taunt {
-    font-family: Unbounded;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding: 13px;
-}
+    .audiance_image {
+        width: 100%;
+        text-align: center;
+    }
 
-.footer_logo {
-    padding: 20px 0px;
-}
-
-/* pop up form */
-.form-popup {
-    width: 80%;
-}
-
-.module {
-    padding: 50px 20px;
-}
-
-.form_button {
-    width: 280px;
-}
-
-.btn-submit {
-
-    padding: 16px 40px;
-}
-
-.cancel{
-
-    padding: 16px 40px;
-}
-
-.form-popup form input {
-    margin-bottom: 29px;
-    padding: 24px;
-}
-}
-
-@media(max-width:425px){
-
-/* pop up form */
-.form-popup {
-    width: 100%;
-}
-
-.module {
-    padding: 30px 15px;
-}
-
-.form_button {
-    width: 280px;
-}
-
-.btn-submit {
-
-    padding: 16px 40px;
-}
-
-.cancel{
-
-    padding: 16px 40px;
-}
-
-.form-popup form input {
-    margin-bottom: 20px;
-    padding: 20px;
-}
+    .earning_image {
+        text-align: center;
+    }
 }
