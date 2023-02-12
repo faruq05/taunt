@@ -32,7 +32,7 @@
                         <img src="images/logo.png" class="img-fluid" alt="taunt_logo">
                     </div>
                     <div class="taunt_reg wow fadeInRight" data-wow-duration="2s" data-wow-delay="0">
-                        <a href="#" class="btn btn-taunt open-button" onclick="openForm()">Join us</a>
+                        <a href="#myForm" class="btn btn-taunt open-button" onclick="openForm()">Join us</a>
                     </div>
                 </div>
             </div>
@@ -42,6 +42,31 @@
 
     <!-- hero starts -->
     <div class="hero c-60" id="hero">
+        <div class="form-popup" id="myForm">
+            <div class="module">
+                <div class="form_head">
+                    <h2>Join Us</h2>
+                    <p>Provide the following details</p>
+                </div>
+                <form action="" class="form-container">
+                    <input type="text" id="brand" class="form-control" placeholder="Name the brand"
+                        required>
+                    <input type="text" id="website" class="form-control"
+                        placeholder="Their website or social media profile" required>
+                    <input type="text" id="page" class="form-control" placeholder="Your main social page"
+                        required>
+                    <input type="email" id="email" class="form-control" placeholder="Your main social page"
+                        required>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        placeholder="Contact phone number" class="form-control">
+                    <div class="form_button">
+                        <a href="#" class="btn btn-submit">Submit</a>
+                        <a href="#myForm" class="btn cancel" onclick="closeForm()">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="form-background" onclick="closeForm()"></div>
         <div class="block"></div>
         <div class="container-fluid">
             <div class="row">
@@ -191,31 +216,7 @@
                         </div>
                     </div>
 
-                    <div class="form-popup" id="myForm">
-                        <div class="module">
-                            <div class="form_head">
-                                <h2>Join Us</h2>
-                                <p>Provide the following details</p>
-                            </div>
-                            <form action="" class="form-container">
-                                <input type="text" id="brand" class="form-control" placeholder="Name the brand"
-                                    required>
-                                <input type="text" id="website" class="form-control"
-                                    placeholder="Their website or social media profile" required>
-                                <input type="text" id="page" class="form-control" placeholder="Your main social page"
-                                    required>
-                                <input type="email" id="email" class="form-control" placeholder="Your main social page"
-                                    required>
-                                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                                    placeholder="Contact phone number" class="form-control">
-                                <div class="form_button">
-                                    <a href="#" class="btn btn-submit">Submit</a>
-                                    <a href="#myForm" class="btn cancel" onclick="closeForm()">Cancel</a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="form-background" onclick="closeForm()"></div>
+                    
 
                 </div>
             </div>
