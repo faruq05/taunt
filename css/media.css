@@ -222,7 +222,7 @@
 
 @media (max-width: 425px) {
     .form-popup {
-        width: 100%;
+        width: 96%;
     }
 
     .module {
@@ -230,7 +230,7 @@
     }
 
     .form_button {
-        width: 280px;
+        width: 266px;
     }
 
     .btn-submit {

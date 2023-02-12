@@ -32,8 +32,10 @@
                         <img src="images/logo.png" class="img-fluid" alt="taunt_logo">
                     </div>
                     <div class="taunt_reg wow fadeInRight" data-wow-duration="2s" data-wow-delay="0">
-                        <a href="#myForm" class="btn btn-taunt open-button" onclick="openForm()">Join us</a>
+                        <a href="#" class="btn btn-taunt" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Join us</a>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -43,28 +45,7 @@
     <!-- hero starts -->
     <div class="hero c-60" id="hero">
         <!-- pop up form -->
-        <div class="form-popup" id="myForm">
-            <div class="module">
-                <div class="form_head">
-                    <h2>Join Us</h2>
-                    <p>Provide the following details</p>
-                </div>
-                <form action="" class="form-container">
-                    <input type="text" id="brand" class="form-control" placeholder="Name the brand" required>
-                    <input type="text" id="website" class="form-control"
-                        placeholder="Their website or social media profile" required>
-                    <input type="text" id="page" class="form-control" placeholder="Your main social page" required>
-                    <input type="email" id="email" class="form-control" placeholder="Your main social page" required>
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                        placeholder="Contact phone number" class="form-control">
-                    <div class="form_button">
-                        <a href="#" class="btn btn-submit">Submit</a>
-                        <a href="#myForm" class="btn cancel" onclick="closeForm()">Cancel</a>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="form-background" onclick="closeForm()"></div>
+
         <!-- pop up form ends -->
         <div class="container-fluid">
             <div class="row">
@@ -210,12 +191,44 @@
                     <div class="cta_content">
                         <h2>Join the network of content creators for your favorite brand.</h2>
                         <div class="cta_button">
-                            <a href="#myForm" class="btn btn-cta open-button" onclick="openForm()">Join us today</a>
+                            <a href="#" class="btn btn-cta" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Join us today</a>
                         </div>
                     </div>
-
-
-
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="form-popup">
+                                    <div class="module">
+                                        <div class="form_head">
+                                            <h2>Join Us</h2>
+                                            <p>Provide the following details</p>
+                                        </div>
+                                        <form action="" class="form-container">
+                                            <input type="text" id="brand" class="form-control"
+                                                placeholder="Name the brand" required>
+                                            <input type="text" id="website" class="form-control"
+                                                placeholder="Their website or social media profile" required>
+                                            <input type="text" id="page" class="form-control"
+                                                placeholder="Your main social page" required>
+                                            <input type="email" id="email" class="form-control"
+                                                placeholder="Your main social page" required>
+                                            <input type="tel" id="phone" name="phone"
+                                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Contact phone number"
+                                                class="form-control">
+                                            <div class="form_button">
+                                                <a href="#" class="btn btn-submit">Submit</a>
+                                                <a href="#" data-bs-dismiss="modal" class="btn cancel">Cancel</a>
+                                            </div>
+                                            <p>Working with multiple talent? Contact us at talent</p>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -276,28 +289,6 @@
 
         // wow js
         new WOW().init();
-
-
-        // form pop up
-        // function openForm() {
-        //     document.getElementById("myForm").style.display = "block";
-        //     document.querySelector(".blur").style.display = "block";
-        // }
-
-        // function closeForm() {
-        //     document.getElementById("myForm").style.display = "none";
-        //     document.querySelector(".blur").style.display = "none";
-        // }
-
-        function openForm() {
-            document.getElementById("myForm").style.display = "block";
-            document.querySelector(".form-background").style.display = "block";
-        }
-
-        function closeForm() {
-            document.getElementById("myForm").style.display = "none";
-            document.querySelector(".form-background").style.display = "none";
-        }
 
     </script>
 </body>
