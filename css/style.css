@@ -359,11 +359,21 @@ body {
     width: 540px;
     border-radius: 50px;
     background:
-    rgb(82, 44, 157);
+        rgb(82, 44, 157);
     background:
-    linear-gradient(90deg, rgba(82, 44, 157, 1) 0%, rgba(124, 84, 206, 1) 100%);
+        linear-gradient(90deg, rgba(82, 44, 157, 1) 0%, rgba(124, 84, 206, 1) 100%);
 }
 
+.modal-content {
+
+    border: none;
+
+}
+
+.modal {
+    overflow-x: auto;
+    overflow-y: scroll;
+}
 
 .btn:focus {
     outline: 0;
