@@ -352,8 +352,7 @@ body {
 
 .form-popup {
     position: fixed;
-    /* top: 50%;
-    transform: translateY(-50%); */
+    top: 6%;
     padding: 8px;
     z-index: 9;
     width: 540px;
@@ -365,13 +364,13 @@ body {
 }
 
 .modal-content {
-
+    max-height: 100%;
+    overflow: hidden;
     border: none;
 
 }
 
-.modal {
-    overflow-x: auto;
+#exampleModal {
     overflow-y: scroll;
 }
 
@@ -379,3 +378,9 @@ body {
     outline: 0;
     box-shadow: none;
 }
+
+.modal-body {
+    padding: 0;
+    overflow-y: auto;
+}
+

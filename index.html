@@ -32,10 +32,9 @@
                         <img src="images/logo.png" class="img-fluid" alt="taunt_logo">
                     </div>
                     <div class="taunt_reg wow fadeInRight" data-wow-duration="2s" data-wow-delay="0">
-                        <a href="#" class="btn btn-taunt" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">Join us</a>
+                        <a href="#cta" class="btn btn-taunt">Join us</a>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -99,7 +98,7 @@
     <!-- hero ends -->
 
     <!-- ecobank starts -->
-    <div class="ecobank c-60">
+    <div class="ecobank c-60" id="ecobank">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 order-2 order-md-1 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0">
@@ -120,7 +119,7 @@
     <!-- ecobank ends -->
 
     <!-- ambassador starts -->
-    <div class="ambassador c-60">
+    <div class="ambassador c-60" id="ambassador">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0">
@@ -141,7 +140,7 @@
     <!-- ambassador ends -->
 
     <!-- audiance starts -->
-    <div class="audiance c-60">
+    <div class="audiance c-60" id="audiance">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 order-2 order-md-1 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0">
@@ -163,7 +162,7 @@
 
 
     <!-- earning starts -->
-    <div class="earning c-60">
+    <div class="earning c-60" id="earning">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0">
@@ -191,39 +190,41 @@
                     <div class="cta_content">
                         <h2>Join the network of content creators for your favorite brand.</h2>
                         <div class="cta_button">
-                            <a href="#" class="btn btn-cta" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">Join us today</a>
+                            <a href="#" class="btn btn-cta" data-bs-toggle="modal" data-bs-target="#exampleModal">Join
+                                us today</a>
                         </div>
                     </div>
                     <!-- Modal -->
-                    <div class="modal fade modal-scrollable" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog modal-dialog-scrollable ">
                             <div class="modal-content">
-                                <div class="form-popup">
-                                    <div class="module">
-                                        <div class="form_head">
-                                            <h2>Join Us</h2>
-                                            <p>Provide the following details</p>
-                                        </div>
-                                        <form action="" class="form-container">
-                                            <input type="text" id="brand" class="form-control"
-                                                placeholder="Name the brand" required>
-                                            <input type="text" id="website" class="form-control"
-                                                placeholder="Their website or social media profile" required>
-                                            <input type="text" id="page" class="form-control"
-                                                placeholder="Your main social page" required>
-                                            <input type="email" id="email" class="form-control"
-                                                placeholder="Your main social page" required>
-                                            <input type="tel" id="phone" name="phone"
-                                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Contact phone number"
-                                                class="form-control">
-                                            <div class="form_button">
-                                                <a href="#" class="btn btn-submit">Submit</a>
-                                                <a href="#" data-bs-dismiss="modal" class="btn cancel">Cancel</a>
+                                <div class="modal-body">
+                                    <div class="form-popup">
+                                        <div class="module">
+                                            <div class="form_head">
+                                                <h2>Join Us</h2>
+                                                <p>Provide the following details</p>
                                             </div>
-                                            <p>Working with multiple talent? Contact us at talent</p>
-                                        </form>
+                                            <form action="" class="form-container">
+                                                <input type="text" id="brand" class="form-control"
+                                                    placeholder="Name the brand" required>
+                                                <input type="text" id="website" class="form-control"
+                                                    placeholder="Their website or social media profile" required>
+                                                <input type="text" id="page" class="form-control"
+                                                    placeholder="Your main social page" required>
+                                                <input type="email" id="email" class="form-control"
+                                                    placeholder="Your main social page" required>
+                                                <input type="tel" id="phone" name="phone"
+                                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                                    placeholder="Contact phone number" class="form-control">
+                                                <div class="form_button">
+                                                    <a href="#" class="btn btn-submit">Submit</a>
+                                                    <a href="#" data-bs-dismiss="modal" class="btn cancel">Cancel</a>
+                                                </div>
+                                                <p>Working with multiple talent? Contact us at talent</p>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
