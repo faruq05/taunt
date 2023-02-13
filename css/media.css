@@ -8,7 +8,7 @@
     }
 
     .form_button {
-        width: 280px;
+        width: 360px;
     }
 
     .btn-submit {
@@ -43,7 +43,7 @@
     }
 
     .form_button {
-        width: 280px;
+        width: 350px;
     }
 
     .btn-submit {
@@ -89,7 +89,7 @@
     }
 
     .form_button {
-        width: 280px;
+        width: 350px;
     }
 
     .btn-submit {
@@ -191,7 +191,7 @@
     }
 
     .form_button {
-        width: 280px;
+        width: 350px;
     }
 
     .btn-submit {
@@ -234,15 +234,41 @@
     }
 
     .form_button {
-        width: 260px;
+        width: 256px;
     }
 
+    .fbtn2 {
+
+width: 235px;
+
+}
+
     .btn-submit {
-        padding: 16px 40px;
+        padding: 16px 24px;
     }
 
     .cancel {
-        padding: 16px 40px;
+        padding: 16px 16px;
+    }
+
+    .submit-btn{
+        background-color: #fff;
+        border: 1px solid #000;
+        border-radius: 50px;
+        padding: 16px 30px;
+        font-weight: 700;
+        font-size: 13px;
+        color: #000!important;
+    }
+
+    .cancel-btn{
+        background-color: #000;
+        border: 1px solid #000;
+        border-radius: 50px;
+        padding: 16px 30px;
+        font-weight: 700;
+        font-size: 13px;
+        color: #fff;
     }
 
     .form-popup form input {
@@ -268,7 +294,7 @@
         overflow-y: auto;
         padding: 0;
     }
-    
+
     .modal-dialog-scrollable .modal-content {
         max-height: 100%;
         overflow: hidden;
