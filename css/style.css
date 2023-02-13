@@ -383,4 +383,15 @@ body {
     top: 50%;
     transform: translateY(-50%);
 }
+
+.btn-close {
+    box-sizing: content-box;
+    float: right;
+    width: 1em;
+    height: 1em;
+    padding: 0.25em 0.25em;
+    background-image: url(../images/icons8-close-button-96.png);
+    border: 0;
+    border-radius: 0.25rem;
+}
 /* pop up ends */
