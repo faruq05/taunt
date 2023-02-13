@@ -74,6 +74,11 @@ body {
     color: #fff;
 }
 
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
 .container {
     max-width: 1130px;
 }
@@ -251,24 +256,13 @@ body {
     padding: 40px 0px;
     text-align: center;
 }
+/* footer ends */
 
 /* pop up form */
-
-
-
 .module {
     background-color: #fff;
     border-radius: 42px;
     padding: 48px;
-}
-
-.module form p {
-    color: #161616;
-    padding-top: 24px;
-    text-align: center;
-    margin: 0;
-    font-weight: 400;
-    font-size: 14px;
 }
 
 .form_head {
@@ -286,6 +280,18 @@ body {
     color: #161616;
     text-align: center;
     font-size: 14px;
+}
+
+.form-popup {
+    top: 6%;
+    padding: 8px;
+    z-index: 9;
+    border-radius: 50px;
+    background:
+        rgb(82, 44, 157);
+
+    background:
+        linear-gradient(90deg, rgba(82, 44, 157, 1) 0%, rgba(124, 84, 206, 1) 100%);
 }
 
 .form-popup form {}
@@ -350,37 +356,31 @@ body {
     color: #fff;
 }
 
-.form-popup {
-    position: fixed;
-    top: 6%;
-    padding: 8px;
-    z-index: 9;
-    width: 540px;
-    border-radius: 50px;
-    background:
-        rgb(82, 44, 157);
-    background:
-        linear-gradient(90deg, rgba(82, 44, 157, 1) 0%, rgba(124, 84, 206, 1) 100%);
+.module form p {
+    color: #161616;
+    padding-top: 24px;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
 }
 
-.modal-content {
+.modal-dialog-scrollable .modal-body {
+    overflow-y: auto;
+    padding: 0;
+}
+
+.modal-dialog-scrollable .modal-body::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-dialog-scrollable .modal-content {
     max-height: 100%;
     overflow: hidden;
+    background-color: transparent;
     border: none;
-
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
-
-#exampleModal {
-    overflow-y: scroll;
-}
-
-.btn:focus {
-    outline: 0;
-    box-shadow: none;
-}
-
-.modal-body {
-    padding: 0;
-    overflow-y: auto;
-}
-
+/* pop up ends */

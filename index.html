@@ -190,15 +190,22 @@
                     <div class="cta_content">
                         <h2>Join the network of content creators for your favorite brand.</h2>
                         <div class="cta_button">
-                            <a href="#" class="btn btn-cta" data-bs-toggle="modal" data-bs-target="#exampleModal">Join
-                                us today</a>
+                            <button type="button" class="btn btn-cta" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">
+                                Join
+                                us today
+                            </button>
                         </div>
                     </div>
+                    <!-- Button trigger modal -->
+
+
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-scrollable ">
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
                             <div class="modal-content">
+
                                 <div class="modal-body">
                                     <div class="form-popup">
                                         <div class="module">
@@ -219,14 +226,17 @@
                                                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                                                     placeholder="Contact phone number" class="form-control">
                                                 <div class="form_button">
-                                                    <a href="#" class="btn btn-submit">Submit</a>
-                                                    <a href="#" data-bs-dismiss="modal" class="btn cancel">Cancel</a>
+                                                    <button type="submit" class="btn btn-submit">Submit</button>
+                                                    <button data-bs-dismiss="modal"
+                                                        class="btn cancel">Cancel</button>
                                                 </div>
                                                 <p>Working with multiple talent? Contact us at talent</p>
                                             </form>
                                         </div>
                                     </div>
+
                                 </div>
+
                             </div>
                         </div>
                     </div>
